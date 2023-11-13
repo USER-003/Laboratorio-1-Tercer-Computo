@@ -20,6 +20,9 @@ pip install -r requirements.txt
 psql -U tu_usuario -h localhost -d nombre_de_tu_base_de_datos < Database/dump.sql
 ```
 
+4. Realiza la conexión a la bd utilizando PostreSql, modificando el string de
+   conexión que se encuentra en el archivo de “settings.py”
+
 ## Uso
 
 Corre la aplicación
